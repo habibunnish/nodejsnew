@@ -1,0 +1,9 @@
+//exporting mymodule from mymodule.js in this variable funny 
+const funny=require('./mymodule');
+funny(12,31,15);
+
+console.log('This is the first javascript file');
+let a=5;
+const b=12;
+var c=11;
+console.log(a+b+c);
