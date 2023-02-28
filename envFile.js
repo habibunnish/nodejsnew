@@ -1,0 +1,4 @@
+USER_ID=8778943495;
+console.log(USER_ID)
+USER_KEY="HABIBUNNISHA"
+process.env.USER_ID

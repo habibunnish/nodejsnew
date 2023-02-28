@@ -1,6 +1,8 @@
 //exporting mymodule from mymodule.js in this variable funny 
 const funny=require('./mymodule');
-funny(12,31,15);
+
+const avg=funny(12,31,15);
+console.log('avg is',+avg)
 
 console.log('This is the first javascript file');
 let a=5;
