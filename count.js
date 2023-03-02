@@ -71,8 +71,8 @@ console.log('\x1b[33m%s\x1b[0m','BUBBLY');
 
 /* install chalk its a library  in addition to coloring it also helps with other styling facilities ex-text bold, italic,underlined */
 
-// const chalk = require('chalk');
-// console.log(chalk.yellow('hello'));
+const chalk = require('chalk');
+console.log(chalk.yellow('hello'));
 
 /*progress bar */ 
 const progressbar=require('progress');

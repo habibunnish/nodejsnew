@@ -18,13 +18,12 @@ fs.readFile('./new.txt',(error,data)=>{
 });
 console.log("terminated");
 
-/////////////////////////////////////////////////////////////
 
 //for writefile example
 
 let content="THIS IS A DYNAMIC CONTENT";
-//writefile.txt is written and while running the content was placed on this file 
-//created newfile automatically
+/* writefile.txt is written and while running the content was placed on this file 
+created newfile automatically */
 fs.writeFile('writefile.txt',content,(err)=>{
     if(err){
         console.log(err);
@@ -33,10 +32,8 @@ fs.writeFile('writefile.txt',content,(err)=>{
     }
 });
 
-//////////////////////////////////////////////
 
 //appendfile example
-
 
 fs.appendFile('./new.txt','\n new content adding in this file by using appendfile',(err)=>{
     if(err){
@@ -46,10 +43,9 @@ fs.appendFile('./new.txt','\n new content adding in this file by using appendfil
     }
 });
 
-///////////////////////////////////////////////////////////
 
-//deletefile example
-//file get deleted 
+/* deletefile example:- file get deleted */
+
 
 fs.unlink('./new.txt',(err)=>{
     if(err){
