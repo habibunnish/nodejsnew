@@ -13,13 +13,13 @@ console.log('after');
 
 //promise all the things
 /* writing async keyword to nay function means that the function will return a promise */
-const afunction=async()=>{
-    return 'test'
-}
-afunction().then(alert);
+// const afunction=async()=>{
+//     return 'test'
+// }
+// afunction().then(alert);
 
-//or
-const Afunction=()=>{
-    return Promise.resolve('test')
-}
-Afunction().then(alert);
+// //or
+// const Afunction=()=>{
+//     return Promise.resolve('test')
+// }
+// Afunction().then(alert);
