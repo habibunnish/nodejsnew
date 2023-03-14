@@ -9,5 +9,3 @@ let a=5;
 const b=12;
 var c=11;
 console.log(a+b+c);
-const age=require('./mymodule');
-const ava=fun()

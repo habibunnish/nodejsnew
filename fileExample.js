@@ -54,3 +54,12 @@ fs.unlink('./new.txt',(err)=>{
         console.log('deleting ');
     }
 })
+
+
+//file descriptor
+const fs=require('fs');
+try{
+    const fd=fs.openSync('/nodejs/new.txt','r')
+}catch(err){
+    console.error(err);
+}
